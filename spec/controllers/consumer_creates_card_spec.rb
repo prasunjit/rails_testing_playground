@@ -2,7 +2,7 @@ require "rails_helper"
 
 feature "User creates a card" do
  scenario "successfully" do
-  visit root_path
+  visit createCard_path
 
   click_on "Add a a new card"
   fill_in "Title", with: "Health Records"

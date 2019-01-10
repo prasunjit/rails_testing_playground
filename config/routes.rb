@@ -3,4 +3,5 @@ Rails.application.routes.draw do
    root to: "consumer#consumer_home"
    get '/consumerDataNotFound', to: 'consumer#consumer_data_notFound'
    get '/consumerNotFound', to: 'consumer#consumer_not_found'
+   get '/createCard', to: 'consumer_card#create_card'
 end
